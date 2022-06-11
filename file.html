@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatting Screen</title>
+    <!--------------------------------------------------------------->
+    <link rel="stylesheet" href="file.css" />
+    <!--------------------------------------------------------------->
+    <script src="https://use.fontawesome.com/aaa78722f0.js"></script>
+    <!--------------------------------------------------------------->
+    <script src="file.js"></script>
+    <!--------------------------------------------------------------->
+  </head>
+  <body>
+    <!--------------------------------------------------------------->
+    <section>
+      <div class="screen">
+        <ul id="screen1" class="messages"></ul>
+      </div>
+      <!---------------------------TWO PARTS OF SECTION--------------------------->
+      <div class="screen">
+        <ul id="screen2" class="messages"></ul>
+      </div>
+    </section>
+    <!--------------------------------------------------------------->
+    <input
+      type="text"
+      class="input"
+      id="text1"
+      placeholder="Enter Message..."
+    />
+    <button class="send-btn" onclick="send1()">
+      <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </button>
+    <!--------------------------------------------------------------->
+    <input
+      type="text"
+      class="input"
+      id="text2"
+      placeholder="Enter Message..."
+    />
+    <button class="send-btn" id="btn-2" onclick="send2()">
+      <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </button>
+    <!--------------------------------------------------------------->
+  </body>
+</html>
